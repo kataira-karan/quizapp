@@ -1,0 +1,53 @@
+.card-container {
+
+    width : 40%;
+    padding :2rem;
+    border-radius: 1rem;
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
+.option-container {
+  padding: 1rem;
+  border: 0.5px solid rgb(62, 61, 61);
+  cursor: pointer;
+  border-radius: 0.5rem;
+  margin-block: 1rem;;
+}
+
+.option-selected {
+    background-color: #537895;
+}
+
+.correct-ans{
+    background-color: rgb(108, 227, 132);
+    border: 0.5px solid rgb(60, 213, 91)
+}
+.wrong-ans{
+    background-color: rgb(189, 88, 88);
+    border: 0.5px solid  rgb(163, 52, 52)
+}
+
+.next-button{
+    padding : 0.7rem 3rem;
+    border: 0;
+    color: white;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    cursor: pointer;
+    }
+
+
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer span {
+    font-size: 0.85rem;
+    color: gray;
+}

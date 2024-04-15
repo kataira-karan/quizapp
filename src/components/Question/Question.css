@@ -1,0 +1,9 @@
+.question-container {
+  padding-block: 1rem;
+}
+
+.question-number{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
